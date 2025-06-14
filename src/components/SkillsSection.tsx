@@ -1,5 +1,5 @@
 
-import { Cloud, Docker, Kubernetes, Github } from "lucide-react";
+import { Cloud, Container, Layers, Github } from "lucide-react";
 
 const SkillsSection = () => {
   const skills = [
@@ -14,9 +14,9 @@ const SkillsSection = () => {
     {
       category: "Containerization",
       skills: [
-        { name: "Docker", level: 92, icon: Docker, color: "from-blue-400 to-blue-600" },
-        { name: "Kubernetes", level: 89, icon: Kubernetes, color: "from-cyan-400 to-cyan-600" },
-        { name: "Helm", level: 85, icon: Kubernetes, color: "from-purple-400 to-purple-600" },
+        { name: "Docker", level: 92, icon: Container, color: "from-blue-400 to-blue-600" },
+        { name: "Kubernetes", level: 89, icon: Layers, color: "from-cyan-400 to-cyan-600" },
+        { name: "Helm", level: 85, icon: Layers, color: "from-purple-400 to-purple-600" },
       ]
     },
     {

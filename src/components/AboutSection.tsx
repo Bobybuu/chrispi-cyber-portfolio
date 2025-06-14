@@ -1,11 +1,11 @@
 
-import { Cloud, Docker, Kubernetes, Github } from "lucide-react";
+import { Cloud, Container, Layers, Github } from "lucide-react";
 
 const AboutSection = () => {
   const techIcons = [
     { Icon: Cloud, label: "AWS", color: "text-orange-400" },
-    { Icon: Docker, label: "Docker", color: "text-blue-400" },
-    { Icon: Kubernetes, label: "Kubernetes", color: "text-cyan-400" },
+    { Icon: Container, label: "Docker", color: "text-blue-400" },
+    { Icon: Layers, label: "Kubernetes", color: "text-cyan-400" },
     { Icon: Cloud, label: "GCP", color: "text-green-400" },
     { Icon: Cloud, label: "Azure", color: "text-blue-500" },
     { Icon: Github, label: "CI/CD", color: "text-purple-400" },
