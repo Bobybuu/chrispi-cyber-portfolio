@@ -1,6 +1,7 @@
 
-import { Cloud, Github, Linkedin, Twitter, Mail, MapPin, ArrowUp } from "lucide-react";
+import { Cloud, Github, Linkedin, Twitter, Mail, MapPin, ArrowUp, Settings } from "lucide-react";
 import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const navItems = [
@@ -84,13 +85,25 @@ const Footer = () => {
               <p className="text-white/60 text-sm mb-4">
                 Ready to build something amazing together?
               </p>
-              <Button
-                size="sm"
-                className="glass-hover border border-cyan-400/50 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 text-white hover:from-cyan-500/30 hover:to-purple-500/30"
-                onClick={() => scrollToSection("contact")}
-              >
-                Get In Touch
-              </Button>
+              <div className="flex flex-col space-y-2">
+                <Button
+                  size="sm"
+                  className="glass-hover border border-cyan-400/50 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 text-white hover:from-cyan-500/30 hover:to-purple-500/30"
+                  onClick={() => scrollToSection("contact")}
+                >
+                  Get In Touch
+                </Button>
+                <Link to="/admin">
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className="w-full border-white/30 text-white/70 hover:bg-white/10"
+                  >
+                    <Settings className="w-4 h-4 mr-2" />
+                    Admin Dashboard
+                  </Button>
+                </Link>
+              </div>
             </div>
 
             {/* Social Links */}
