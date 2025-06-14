@@ -1,4 +1,3 @@
-
 import { Cloud, Github, Linkedin, Twitter } from "lucide-react";
 
 interface NavigationProps {
@@ -28,7 +27,7 @@ const Navigation = ({ activeSection }: NavigationProps) => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Cloud className="w-8 h-8 text-cyan-400" />
-            <span className="text-xl font-bold neon-text">Chrispi Odiwuor</span>
+            <span className="text-xl font-bold neon-text">Chrispin Odiwuor</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

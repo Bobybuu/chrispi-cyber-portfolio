@@ -1,4 +1,3 @@
-
 import { Cloud } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -20,7 +19,7 @@ const HeroSection = () => {
           {/* Main heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             Hi, I'm{" "}
-            <span className="neon-text">Chrispi Odiwuor</span>
+            <span className="neon-text">Chrispin Odiwuor</span>
           </h1>
           
           <div className="text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto">
