@@ -8,6 +8,7 @@ import ExperienceSection from "../components/ExperienceSection";
 import ContactSection from "../components/ContactSection";
 import Navigation from "../components/Navigation";
 import ParticleBackground from "../components/ParticleBackground";
+import Footer from "../components/Footer";
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState("hero");
@@ -61,6 +62,8 @@ const Index = () => {
       <div id="contact">
         <ContactSection />
       </div>
+      
+      <Footer />
     </div>
   );
 };
