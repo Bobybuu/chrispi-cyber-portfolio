@@ -78,7 +78,6 @@ const ProjectsSection = () => {
                       size="sm"
                       variant="outline"
                       className="glass-hover border-white/30 text-white hover:border-cyan-400/50 flex-1"
-                      onClick={() => window.open(project.github, '_blank')}
                     >
                       <Github className="w-4 h-4 mr-2" />
                       Code
@@ -86,7 +85,6 @@ const ProjectsSection = () => {
                     <Button
                       size="sm"
                       className="bg-gradient-to-r from-cyan-500/20 to-purple-500/20 border border-cyan-400/50 text-white hover:from-cyan-500/30 hover:to-purple-500/30 flex-1"
-                      onClick={() => window.open(project.demo, '_blank')}
                     >
                       <Cloud className="w-4 h-4 mr-2" />
                       Demo
